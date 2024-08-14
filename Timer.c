@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <unistd.h>
-#include <stdlib.h>
+
 int main() {
     int hour, minute, second;
     hour = minute = second = 0;
