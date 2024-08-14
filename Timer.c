@@ -5,9 +5,8 @@ int main() {
     int hour, minute, second;
     hour = minute = second = 0;
     while(1) {
-        system("cls");
 
-        printf("%02d : %02d : %02d \n",hour, minute, second);
+        printf("\r%02d : %02d : %02d \n",hour, minute, second);
 
         fflush(stdout);
 
